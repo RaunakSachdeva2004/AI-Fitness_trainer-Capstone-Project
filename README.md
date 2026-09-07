@@ -43,10 +43,47 @@ While the baseline framework is grounded in research on real-time exercise class
 |---|---|---|
 | Pose Estimation | MediaPipe Pose | Real-time 33-point skeletal landmark extraction |
 | Temporal Classification | TensorFlow / Keras | Bidirectional LSTM neural network architecture |
-| Application Interface | Streamlit | Web interface for webcam feed and analytics |
+| Application Interface | Tkinter / Streamlit | GUI for webcam feed, real-time counters, and analytics |
 | Computer Vision | OpenCV | Frame manipulation, drawing, and video streaming |
 | Conversational Assistant | OpenAI API / LangChain | Fitness knowledge querying and user interaction |
 | Core Language | Python 3.9+ | Backend pipeline and algorithmic execution |
+
+---
+
+## Getting Started & Running the Demo
+
+The interactive prototype application is located in the [`demo/`](demo/) directory ([`fitness_demo_idle.py`](demo/fitness_demo_idle.py)). It provides a real-time desktop interface for webcam-based pose landmark tracking, joint-angle calculation, and automated repetition counting (supporting bicep curls and squats).
+
+### Prerequisites
+
+Install the required Python dependencies:
+
+```bash
+pip install opencv-python mediapipe numpy Pillow
+```
+
+*(Note: `tkinter` is included by default with standard Python distributions).*
+
+### Execution Commands
+
+To start the demo, navigate to the demo directory and launch the application:
+
+```bash
+# Navigate to the demo folder
+cd demo
+
+# If running from a local folder path, for example:
+# cd "/Users/hydra/Desktop/Capstone demo"
+
+# Launch the demo
+python3 fitness_demo_idle.py
+```
+
+Alternatively, you can launch it directly from the root of the repository:
+
+```bash
+python3 demo/fitness_demo_idle.py
+```
 
 ---
 
@@ -70,6 +107,8 @@ The architecture and methodology of this project are informed by peer-reviewed l
 AI-Fitness_trainer-Capstone-Project/
 ├── LICENSE
 ├── README.md
+├── demo/
+│   └── fitness_demo_idle.py
 └── RESEARCH/
     ├── BlazePose On-device Real-time Body Pose tracking.pdf
     ├── Muscle Vision Real Time Keypoint Based Pose Classification of Physical Exercises.pdf
