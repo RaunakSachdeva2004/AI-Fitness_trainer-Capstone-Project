@@ -1,10 +1,3 @@
-# --- requirements.txt ---
-# opencv-python
-# mediapipe
-# numpy
-# Pillow
-# tkinter (built-in, no need to install)
-
 # --- fitness_demo_idle.py ---
 import cv2
 import mediapipe as mp

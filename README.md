@@ -59,10 +59,10 @@ The interactive prototype application is located in the [`demo/`](demo/) directo
 Install the required Python dependencies:
 
 ```bash
-pip install opencv-python mediapipe numpy Pillow
+pip install -r requirements.txt
 ```
 
-*(Note: `tkinter` is included by default with standard Python distributions).*
+*(Note: `tkinter` is included by default with standard Python distributions on Windows, macOS, and Linux).*
 
 ### Execution Commands
 
@@ -107,6 +107,7 @@ The architecture and methodology of this project are informed by peer-reviewed l
 AI-Fitness_trainer-Capstone-Project/
 ├── LICENSE
 ├── README.md
+├── requirements.txt
 ├── demo/
 │   └── fitness_demo_idle.py
 └── RESEARCH/

@@ -1,0 +1,5 @@
+opencv-python
+mediapipe
+numpy
+Pillow
+# tkinter is included with standard Python installations (no pip install required)
