@@ -66,21 +66,18 @@ pip install -r requirements.txt
 
 ### Execution Commands
 
-To start the demo, navigate to the demo directory and launch the application:
+You can run the application either from inside the demo directory or directly from the project root:
 
+**Option 1: Run from the demo directory**
 ```bash
-# Navigate to the demo folder
+# Navigate to the demo folder (e.g., cd path/to/demo)
 cd demo
 
-# If running from a local folder path, for example:
-# cd "/Users/hydra/Desktop/Capstone demo"
-
-# Launch the demo
+# Launch the application
 python3 fitness_demo_idle.py
 ```
 
-Alternatively, you can launch it directly from the root of the repository:
-
+**Option 2: Run directly from the project root**
 ```bash
 python3 demo/fitness_demo_idle.py
 ```
