@@ -50,9 +50,41 @@ While the baseline framework is grounded in research on real-time exercise class
 
 ---
 
+## Research Foundation & Literature Survey
+
+The architecture and methodology of this project are informed by peer-reviewed literature and key research papers curated in the [`RESEARCH/`](RESEARCH/) directory:
+
+| Paper / Document | Focus Area & Relevance to Project | File Path |
+|---|---|---|
+| **BlazePose: On-device Real-time Body Pose Tracking** | Details the single-person 33-keypoint 3D landmark topology and lightweight inference pipeline powering the MediaPipe Pose backend. | [`BlazePose On-device Real-time Body Pose tracking.pdf`](RESEARCH/BlazePose%20On-device%20Real-time%20Body%20Pose%20tracking.pdf) |
+| **Real-Time Fitness Exercise Classification and Counting from Video Frames** | Core baseline paper outlining sequential landmark extraction, BiLSTM neural network classification, and geometric state-machine repetition counting. | [`Real-Time Fitness Exercise Classification and.pdf`](RESEARCH/Real-Time%20Fitness%20Exercise%20Classification%20and.pdf) |
+| **Muscle Vision: Real Time Keypoint Based Pose Classification of Physical Exercises** | Investigates skeletal keypoint geometry, kinematic angle calculation, and pose classification across standard calisthenics exercises. | [`Muscle Vision Real Time Keypoint Based Pose Classification of Physical Exercises.pdf`](RESEARCH/Muscle%20Vision%20Real%20Time%20Keypoint%20Based%20Pose%20Classification%20of%20Physical%20Exercises.pdf) |
+| **Recognizing Exercises and Counting Repetitions in Real Time** | Analyzes continuous repetition segmentation, peak-valley cycle detection, and repetition validation algorithms under varying user camera perspectives. | [`Recognizing Exercises and Counting Repetitions in real time.pdf`](RESEARCH/Recognizing%20Exercises%20and%20Counting%20Repetitions%20in%20real%20time.pdf) |
+| **Workout Classification Using a Convolutional Neural Network in Ensemble Learning** | Explores spatio-temporal feature extraction, CNN models, and ensemble methods for workout motion classification, informing model benchmark comparisons. | [`Workout Classification Using a Convolutional Neural Network in Ensemble Learning.pdf`](RESEARCH/Workout%20Classification%20Using%20a%20Convolutional%20Neural%20Network%20in%20Ensemble%20Learning.pdf) |
+
+---
+
+## Repository Structure
+
+```text
+AI-Fitness_trainer-Capstone-Project/
+├── LICENSE
+├── README.md
+└── RESEARCH/
+    ├── BlazePose On-device Real-time Body Pose tracking.pdf
+    ├── Muscle Vision Real Time Keypoint Based Pose Classification of Physical Exercises.pdf
+    ├── Real-Time Fitness Exercise Classification and.pdf
+    ├── Recognizing Exercises and Counting Repetitions in real time.pdf
+    └── Workout Classification Using a Convolutional Neural Network in Ensemble Learning.pdf
+```
+
+---
+
 ## References
 
-1. Riccio, R. (2024). *Real-Time Fitness Exercise Classification and Counting from Video Frames.* arXiv:2411.11548.
-2. Lugaresi, C., et al. (2019). *MediaPipe: A Framework for Building Perception Pipelines.* arXiv:1906.08172.
-3. Hochreiter, S., & Schmidhuber, J. (1997). *Long Short-Term Memory.* Neural Computation, 9(8), 1735-1780.
-4. Schuster, M., & Paliwal, K. K. (1997). *Bidirectional Recurrent Neural Networks.* IEEE Transactions on Signal Processing, 45(11), 2673-2681.
+1. Bazrev, V., et al. (2020). *BlazePose: On-device Real-time Body Pose tracking.* arXiv:2006.10204.
+2. Riccio, R. (2024). *Real-Time Fitness Exercise Classification and Counting from Video Frames.* arXiv:2411.11548.
+3. Lugaresi, C., et al. (2019). *MediaPipe: A Framework for Building Perception Pipelines.* arXiv:1906.08172.
+4. Hochreiter, S., & Schmidhuber, J. (1997). *Long Short-Term Memory.* Neural Computation, 9(8), 1735-1780.
+5. Schuster, M., & Paliwal, K. K. (1997). *Bidirectional Recurrent Neural Networks.* IEEE Transactions on Signal Processing, 45(11), 2673-2681.
+
