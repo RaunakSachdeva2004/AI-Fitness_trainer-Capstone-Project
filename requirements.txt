@@ -1,5 +1,7 @@
-opencv-python
-mediapipe
-numpy
-Pillow
-# tkinter is included with standard Python installations (no pip install required)
+# Core Computer Vision & Pose Tracking
+opencv-python>=4.8.0
+mediapipe>=0.10.9
+numpy>=1.24.0,<2.0.0
+Pillow>=9.5.0
+
+# Note: Tkinter is bundled with standard Python distributions on Windows (no pip install required)
